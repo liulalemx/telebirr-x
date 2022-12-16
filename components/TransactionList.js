@@ -4,7 +4,7 @@ import TransactionCard from "./TransactionCard"
 
 const LatestTransactions = () => {
   return (
-    <ScrollView className="px-4">
+    <ScrollView className="px-4" contentContainerStyle={{ paddingBottom: 100 }}>
       <TransactionCard
         name="Public Transport"
         time="5 hours ago"
@@ -20,6 +20,31 @@ const LatestTransactions = () => {
         name="Transfer form Kaleb"
         time="12 hours ago"
         value="+ $700"
+      />
+      <TransactionCard
+        name="Transfer to Abate"
+        time="12 hours ago"
+        value="- $200"
+      />
+      <TransactionCard
+        name="Transfer to Abate"
+        time="12 hours ago"
+        value="- $200"
+      />
+      <TransactionCard
+        name="Transfer to Abate"
+        time="12 hours ago"
+        value="- $200"
+      />
+      <TransactionCard
+        name="Transfer to Abate"
+        time="12 hours ago"
+        value="- $200"
+      />
+      <TransactionCard
+        name="Transfer to Abate"
+        time="12 hours ago"
+        value="- $200"
       />
       <TransactionCard
         name="Transfer to Abate"
