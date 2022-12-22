@@ -39,12 +39,12 @@ const HomeScreen = () => {
           </View>
 
           <View className="flex-row space-x-2 px-4 justify-center">
-            <View className="bg-[#5565FF] rounded-xl py-2 px-6">
+            <TouchableOpacity className="bg-[#5565FF] rounded-xl py-2 px-6">
               <Text className="text-white font-bold">Send</Text>
-            </View>
-            <View className="bg-black rounded-xl py-2 px-6">
+            </TouchableOpacity>
+            <TouchableOpacity className="bg-black rounded-xl py-2 px-6">
               <Text className="text-white font-bold">Receive</Text>
-            </View>
+            </TouchableOpacity>
           </View>
         </View>
 
